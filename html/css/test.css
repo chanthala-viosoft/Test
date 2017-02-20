@@ -1,0 +1,18 @@
+
+/*class .intro*/
+.intro { 
+    background-color: yellow;
+}
+
+p.center {
+    text-align: center;
+    color: red;
+}
+
+p.large {
+    font-size: 300%;
+}
+
+p.hometown {
+    background-color: yellow;
+}

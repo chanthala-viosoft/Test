@@ -1,0 +1,103 @@
+/*// #id {
+//     --> mean for what ???
+// }
+
+
+// #id>a {
+//     --> mean for what ???
+// }
+
+// #id:a {
+//     --> mean for what ???
+// }
+// .class1 .class2 {
+
+// }
+// ....*/
+
+h1{
+    text-align: center;
+    color: white;
+    padding: 10px 10px;
+    font-size: 40px;   
+}
+h2{
+    text-align: center;
+}
+html, body{
+    background: #71c6c1;
+    width: 100%;   
+    height: 100%;   
+    font-family: "Helvetica Neue", Helvetica, sans-serif;   
+    /*color: #444;   */
+    /*-webkit-font-smoothing: antialiased;    */
+}
+
+#container{
+    position:fixed;
+    width:400px;
+    height: 400px;
+/*add in 50/50 in page */
+    top:20%;
+    left:50%;
+    margin-top: -140px;
+    margin-left: -180px;
+}
+.box{
+    background:white;
+    /*width: 400px;*/
+    /*border-radius: 4px;*/
+    margin: 0 auto 0 auto;
+    padding: 10px 10px 10px 10px;
+    /*border:  #444 4px solid;*/
+    top:50%;
+    left:50%;
+}
+label {
+    color: #555;
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+/* .CLASS: can change many*/
+.input {
+   color: #777;         /* color for cursor inside input */
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    width: 340px;
+    height: 50px;
+    
+}
+/* #ID: apply only one*/
+#input-Message {
+    color: #777;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    width: 340px;
+    height: 100px;
+}
+button{
+    background-color: #f99104;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-left: 18px;
+    width: 240px;
+    height: 35px;
+    padding-bottom: 35px;  
+}
+button:hover{
+    background: #71c6c1;
+}
+
+
+#input_container { position:relative; padding:0; margin:0; }
+#input { height:20px; margin:0; padding-left: 30px; }
+
+#input_img { position:absolute; bottom:8px; left:10px; width:10px; height:10px; }
